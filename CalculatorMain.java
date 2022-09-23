@@ -4,7 +4,8 @@ public class CalculatorMain {
 
 	public static void main(String[] args) {
 
-		System.out.println("Wel-come to Calculator Program...");
+		CalculatorOperations calculatorOperations = new CalculatorOperations();
+		calculatorOperations.checkOperationType();
 
 	}
 
